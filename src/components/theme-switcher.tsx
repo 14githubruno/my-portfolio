@@ -1,6 +1,9 @@
 "use client";
 
+// react lib
 import { useState, useEffect } from "react";
+
+// next-themes lib
 import { useTheme } from "next-themes";
 
 export default function ThemeSwitcher() {

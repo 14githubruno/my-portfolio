@@ -1,5 +1,6 @@
 "use client";
 
+// next-themes lib
 import { ThemeProvider } from "next-themes";
 
 export default function ThemeContextProvider({

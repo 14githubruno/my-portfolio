@@ -1,6 +1,10 @@
+// types
 import type { Metadata } from "next";
+
+// styles
 import "./globals.css";
 
+// themes provider/switchers
 import ThemeContextProvider from "@/context/theme-provider";
 import ThemeSwitcher from "@/components/theme-switcher";
 
