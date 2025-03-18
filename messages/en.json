@@ -1,5 +1,9 @@
 {
   "Home": {
+    "meta": {
+      "title": "Some title",
+      "description": "Some description"
+    },
     "paragraph": "Testing"
   }
 }
