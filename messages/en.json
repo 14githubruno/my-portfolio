@@ -12,5 +12,9 @@
       "description": "This page does not exist (404)"
     },
     "paragraph": "Ops! This page does not exist"
+  },
+  "ErrorPage": {
+    "title": "Error",
+    "buttonText": "Retry"
   }
 }
