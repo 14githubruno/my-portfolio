@@ -2,23 +2,16 @@
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 
-// styles
-import "../globals.css";
-
 // next lib
 import { notFound } from "next/navigation";
 
-// providers
-import ThemeContextProvider from "@/context/theme-provider";
-
 // next-intl
-import { NextIntlClientProvider, Locale, hasLocale } from "next-intl";
+import { Locale, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 
 // components
-import ThemeSwitcher from "@/components/theme-switcher";
-import LocaleSwitcher from "@/components/locale-switcher";
+import BaseLayout from "@/components/base-layout";
 
 type LayoutProps = {
   children: ReactNode;
@@ -44,17 +37,5 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className="bg-amber-50 antialiased dark:bg-zinc-800">
-        <ThemeContextProvider>
-          <NextIntlClientProvider>
-            <ThemeSwitcher />
-            <LocaleSwitcher />
-            <main>{children}</main>
-          </NextIntlClientProvider>
-        </ThemeContextProvider>
-      </body>
-    </html>
-  );
+  return <BaseLayout locale={locale}>{children}</BaseLayout>;
 }
