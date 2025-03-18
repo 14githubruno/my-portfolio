@@ -8,14 +8,17 @@ import "../globals.css";
 // next lib
 import { notFound } from "next/navigation";
 
-// themes provider/switchers
+// providers
 import ThemeContextProvider from "@/context/theme-provider";
-import ThemeSwitcher from "@/components/theme-switcher";
 
 // next-intl
 import { NextIntlClientProvider, Locale, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+
+// components
+import ThemeSwitcher from "@/components/theme-switcher";
+import LocaleSwitcher from "@/components/locale-switcher";
 
 type LayoutProps = {
   children: ReactNode;
@@ -47,6 +50,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
         <ThemeContextProvider>
           <NextIntlClientProvider>
             <ThemeSwitcher />
+            <LocaleSwitcher />
             <main>{children}</main>
           </NextIntlClientProvider>
         </ThemeContextProvider>
