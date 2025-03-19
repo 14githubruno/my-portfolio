@@ -1,0 +1,20 @@
+{
+  "Home": {
+    "meta": {
+      "title": "Esempio titolo",
+      "description": "Esempio descrizione"
+    },
+    "paragraph": "Testando"
+  },
+  "NotFoundPage": {
+    "meta": {
+      "title": "404",
+      "description": "Questa pagina non esiste (404)"
+    },
+    "paragraph": "Ops! Questa pagina non esiste"
+  },
+  "ErrorPage": {
+    "title": "Errore",
+    "buttonText": "Riprova"
+  }
+}
