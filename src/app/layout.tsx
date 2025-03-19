@@ -6,8 +6,7 @@ type LayoutProps = {
 };
 
 /**
- * Since we have a `not-found.tsx` page on the root, a layout file is required,
- * even if it's just passing children through.
+ * Since we have a `not-found.tsx` page on the root, we need a layout file.
  */
 export default function RootLayout({ children }: LayoutProps) {
   return children;
