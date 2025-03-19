@@ -17,6 +17,7 @@
     "*.{json,css}": "prettier --write"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "next": "15.2.3",
     "next-intl": "^4.0.2",
     "next-themes": "^0.4.6",
