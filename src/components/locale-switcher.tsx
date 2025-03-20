@@ -17,7 +17,7 @@ export default function LocaleSwitcher() {
       href={pathname}
       locale={otherLocale}
       scroll={false}
-      className="underline"
+      className="w-fit underline"
     >
       {otherLocale}
     </NextIntlLink>
