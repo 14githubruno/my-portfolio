@@ -13,7 +13,12 @@ export default function LocaleSwitcher() {
   const pathname = useNextIntlPathname();
 
   return (
-    <NextIntlLink href={pathname} locale={otherLocale} className="ml-1 border">
+    <NextIntlLink
+      href={pathname}
+      locale={otherLocale}
+      scroll={false}
+      className="underline"
+    >
       {otherLocale}
     </NextIntlLink>
   );
