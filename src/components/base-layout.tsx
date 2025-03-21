@@ -11,6 +11,8 @@ import { NextIntlClientProvider } from "next-intl";
 
 import WebsiteWrapper from "./website-wrapper";
 import PageWrapper from "./page-wrapper";
+import Header from "./header";
+import Footer from "./footer";
 
 const raleway = Raleway({
   variable: "--font-raleway",
@@ -48,7 +50,9 @@ export default async function BaseLayout({ children, locale }: Props) {
         <ThemeContextProvider>
           <NextIntlClientProvider>
             <WebsiteWrapper>
+              <Header />
               <PageWrapper>{children}</PageWrapper>
+              <Footer />
             </WebsiteWrapper>
           </NextIntlClientProvider>
         </ThemeContextProvider>
