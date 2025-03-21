@@ -1,6 +1,4 @@
 import type { NextConfig } from "next";
-
-// next-intl plugin
 import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {

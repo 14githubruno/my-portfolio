@@ -1,19 +1,14 @@
-// types
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 
-// next lib
 import { notFound } from "next/navigation";
 
-// helpers
 import { getBaseUrl } from "@/helpers/get-base-url";
 
-// next-intl
 import { Locale, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 
-// components
 import BaseLayout from "@/components/base-layout";
 
 type LayoutProps = {

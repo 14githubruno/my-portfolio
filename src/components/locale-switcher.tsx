@@ -1,11 +1,7 @@
 "use client";
 
-// next-intl lib
 import { useLocale } from "next-intl";
-import {
-  Link as NextIntlLink,
-  usePathname as useNextIntlPathname,
-} from "@/i18n/navigation";
+import { usePathname as useNextIntlPathname } from "@/i18n/navigation";
 
 export default function LocaleSwitcher() {
   const locale = useLocale();
@@ -13,8 +9,11 @@ export default function LocaleSwitcher() {
   const pathname = useNextIntlPathname();
 
   return (
-    <NextIntlLink href={pathname} locale={otherLocale} className="ml-1 border">
+    <a
+      href={`${pathname}${otherLocale}`}
+      className="w-fit text-sm underline md:text-base"
+    >
       {otherLocale}
-    </NextIntlLink>
+    </a>
   );
 }

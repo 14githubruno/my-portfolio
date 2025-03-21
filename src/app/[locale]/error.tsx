@@ -1,9 +1,6 @@
 "use client";
 
-// next-intl lib
 import { useTranslations } from "next-intl";
-
-// react lib
 import { useEffect } from "react";
 
 type Props = {

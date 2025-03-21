@@ -1,10 +1,90 @@
 {
+  "Global": {
+    "Header": {
+      "Headings": {
+        "headingOne": "bruno lusardi",
+        "headingTwo": "sviluppatore web"
+      }
+    },
+    "Footer": {
+      "FooterParagraphs": {
+        "stackDesc": "Questo sito è stato realizzato con Next.js, TypeScript e Tailwind CSS. <repo>La repo si trova qui</repo>.",
+        "copyright": "bruno lusardi"
+      },
+      "contacts": [
+        {
+          "href": "mailto:bruno.lusardi.96@gmail.com",
+          "text": "email",
+          "target": "_self"
+        },
+        { "href": "https://github.com/14githubruno", "text": "github" }
+      ]
+    }
+  },
   "Home": {
     "meta": {
       "title": "Esempio titolo",
       "description": "Esempio descrizione"
     },
     "paragraph": "Testando"
+  },
+  "AboutSection": {
+    "title": "Chi sono",
+    "paragraphs": [
+      "Bellissimo 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem.",
+      "Bellissimo 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem."
+    ]
+  },
+  "ProjectsSection": {
+    "title": "Selezione progetti",
+    "paragraphs": [
+      "Bello 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem.",
+      "Bello 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem."
+    ],
+    "projectsData": [
+      {
+        "title": "lorem 5",
+        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          { "href": "", "text": "bitbucket" },
+          { "href": "https://google.com", "text": "visit" }
+        ]
+      },
+      {
+        "title": "lorem 4",
+        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          { "href": "", "text": "bitbucket" },
+          { "href": "https://google.com", "text": "visit" }
+        ]
+      },
+      {
+        "title": "lorem 3",
+        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          { "href": "https://google.com", "text": "github" },
+          { "href": "https://google.com", "text": "visit" }
+        ]
+      },
+      {
+        "title": "lorem 2",
+        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [{ "href": "https://google.com", "text": "github" }]
+      },
+      {
+        "title": "lorem 1",
+        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          { "href": "https://google.com", "text": "github" },
+          { "href": "https://google.com", "text": "visit" }
+        ]
+      }
+    ]
   },
   "NotFoundPage": {
     "meta": {

@@ -2,3 +2,12 @@
 
 /* Enable dark/light mode */
 @custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* colors */
+  --color-dark: #2b2929f0;
+
+  /* fonts */
+  --font-raleway: var(--font-raleway);
+  --font-playfair-display: var(--font-playfair-display);
+}

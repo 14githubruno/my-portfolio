@@ -1,9 +1,6 @@
 "use client";
 
-// types
 import { ReactNode } from "react";
-
-// next-themes lib
 import { ThemeProvider } from "next-themes";
 
 type Props = {

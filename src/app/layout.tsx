@@ -1,4 +1,3 @@
-// types
 import { ReactNode } from "react";
 
 type LayoutProps = {
