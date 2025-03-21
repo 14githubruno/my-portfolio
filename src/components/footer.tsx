@@ -12,7 +12,7 @@ function FooterParagraphs() {
 
   return (
     <div className={clsx("flex flex-col gap-8 pl-2", "lg:pl-4")}>
-      <p className={clsx("text-sm", "lg:text-base")}>
+      <p className={clsx("pr-2 text-sm", "lg:text-base")}>
         {t.rich("stackDesc", {
           repo: (chunks) => (
             <ExternalLink href="https://github.com/14githubruno/my-portfolio">
