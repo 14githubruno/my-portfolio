@@ -1,20 +1,18 @@
 "use client";
 
-// react lib
 import { useState, useEffect } from "react";
-
-// next-themes lib
 import { useTheme } from "next-themes";
 
 export default function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
   const { setTheme, resolvedTheme } = useTheme();
-  const baseSwitcherClasses = "cursor-pointer border";
+  const baseSwitcherClasses =
+    "cursor-pointer text-sm md:text-base underline w-fit inline-flex";
 
   useEffect(() => setMounted(true), []);
 
   if (!mounted) {
-    return <button className="h-2 w-2 bg-zinc-800"></button>;
+    return <span className="invisible inline-flex">loading...</span>;
   }
 
   if (resolvedTheme === "dark") {
