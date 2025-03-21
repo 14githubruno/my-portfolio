@@ -1,11 +1,17 @@
 import clsx from "clsx";
+import { ReactNode } from "react";
 
 export type ExternalLinkProps = {
   href: string;
   text: string;
+  children?: ReactNode;
 };
 
-export default function ExternalLink({ href, text }: ExternalLinkProps) {
+export default function ExternalLink({
+  href,
+  text,
+  children,
+}: ExternalLinkProps) {
   return (
     <a
       className={clsx("text-sm underline", "lg:text-base")}
@@ -13,7 +19,7 @@ export default function ExternalLink({ href, text }: ExternalLinkProps) {
       target="_blank"
       rel="noopener noreferrer"
     >
-      {text}
+      {children || text}
     </a>
   );
 }
