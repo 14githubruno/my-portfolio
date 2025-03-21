@@ -9,7 +9,12 @@ export default function AboutSection() {
   const { title, paragraphs } = messages.AboutSection;
 
   return (
-    <section className={clsx("flex flex-col gap-4 px-2", "lg:px-4 lg:py-8")}>
+    <section
+      className={clsx(
+        "flex flex-col gap-4 px-2 pt-16 pb-8",
+        "lg:px-4 lg:pt-16"
+      )}
+    >
       <h3
         className={clsx(
           "text-lg text-zinc-500 dark:text-zinc-400",
@@ -18,7 +23,7 @@ export default function AboutSection() {
       >
         {title}
       </h3>
-      <div className={clsx("flex flex-col gap-4")}>
+      <div className="flex flex-col gap-4">
         {paragraphs.map((paragraph: string) => {
           return (
             <p className="text-zinc-800 dark:text-amber-50" key={paragraph}>

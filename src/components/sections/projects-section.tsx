@@ -100,7 +100,7 @@ export default function ProjectsSection() {
   const { title, paragraphs, projectsData } = messages.ProjectsSection;
 
   return (
-    <div className={clsx("flex flex-col gap-4")}>
+    <div className={clsx("flex flex-col gap-4", "lg:pt-16")}>
       <h3
         className={clsx(
           "px-2 text-lg text-zinc-500 dark:text-zinc-400",
@@ -110,7 +110,7 @@ export default function ProjectsSection() {
         {title}
       </h3>
       <div
-        className={clsx("flex flex-col gap-4 px-2 pb-16", "lg:pb-8 lg:pl-4")}
+        className={clsx("flex flex-col gap-4 px-2 pb-16", "lg:pb-12 lg:pl-4")}
       >
         {paragraphs.map((paragraph: string) => {
           return (
