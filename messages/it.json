@@ -17,8 +17,7 @@
           "text": "email",
           "target": "_self"
         },
-        { "href": "https://google.com", "text": "linkedin" },
-        { "href": "https://google.com", "text": "github" }
+        { "href": "https://github.com/14githubruno", "text": "github" }
       ]
     }
   },
