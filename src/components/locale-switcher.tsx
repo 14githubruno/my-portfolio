@@ -1,6 +1,5 @@
 "use client";
 
-// next-intl lib
 import { useLocale } from "next-intl";
 import { usePathname as useNextIntlPathname } from "@/i18n/navigation";
 

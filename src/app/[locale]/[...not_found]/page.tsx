@@ -1,4 +1,3 @@
-// next lib
 import { notFound } from "next/navigation";
 
 /**

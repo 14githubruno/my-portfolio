@@ -1,8 +1,6 @@
-// next-intl
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Locale } from "next-intl";
 
-// components
 import { Fragment } from "react";
 import AboutSection from "@/components/sections/about-section";
 import ProjectsSection from "@/components/sections/projects-section";

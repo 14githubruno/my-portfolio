@@ -1,4 +1,3 @@
-// components
 import NotFoundPage from "@/components/not-found-page";
 
 /**

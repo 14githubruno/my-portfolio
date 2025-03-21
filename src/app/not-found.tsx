@@ -1,8 +1,6 @@
-// components
 import BaseLayout from "@/components/base-layout";
 import NotFoundPage from "@/components/not-found-page";
 
-// next-intl config
 import { routing } from "@/i18n/routing";
 
 /**
