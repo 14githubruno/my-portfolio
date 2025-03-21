@@ -1,4 +1,27 @@
 {
+  "Global": {
+    "Header": {
+      "Headings": {
+        "headingOne": "bruno lusardi",
+        "headingTwo": "web developer"
+      }
+    },
+    "Footer": {
+      "FooterParagraphs": {
+        "stackDesc": "This website has been made with Next.js, TypeScript and Tailwind CSS. <repo>The repo can be found here</repo>.",
+        "copyright": "bruno lusardi"
+      },
+      "contacts": [
+        {
+          "href": "mailto:bruno.lusardi.96@gmail.com",
+          "text": "email",
+          "target": "_self"
+        },
+        { "href": "https://google.com", "text": "linkedin" },
+        { "href": "https://google.com", "text": "github" }
+      ]
+    }
+  },
   "Home": {
     "meta": {
       "title": "Some title",
