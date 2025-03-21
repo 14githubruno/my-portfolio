@@ -6,6 +6,64 @@
     },
     "paragraph": "Testing"
   },
+  "AboutSection": {
+    "title": "About",
+    "paragraphs": [
+      "Beautiful 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem.",
+      "Beautiful 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem."
+    ]
+  },
+  "ProjectsSection": {
+    "title": "Projects",
+    "paragraphs": [
+      "Beautiful 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem.",
+      "Beautiful 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem."
+    ],
+    "projectsData": [
+      {
+        "title": "lorem 5",
+        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          { "href": "", "text": "bitbucket" },
+          { "href": "https://google.com", "text": "visit" }
+        ]
+      },
+      {
+        "title": "lorem 4",
+        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          { "href": "", "text": "bitbucket" },
+          { "href": "https://google.com", "text": "visit" }
+        ]
+      },
+      {
+        "title": "lorem 3",
+        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          { "href": "https://google.com", "text": "github" },
+          { "href": "https://google.com", "text": "visit" }
+        ]
+      },
+      {
+        "title": "lorem 2",
+        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [{ "href": "https://google.com", "text": "github" }]
+      },
+      {
+        "title": "lorem 1",
+        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          { "href": "https://google.com", "text": "github" },
+          { "href": "https://google.com", "text": "visit" }
+        ]
+      }
+    ]
+  },
   "NotFoundPage": {
     "meta": {
       "title": "404",
