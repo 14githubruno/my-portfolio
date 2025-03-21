@@ -2,6 +2,11 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Locale } from "next-intl";
 
+// components
+import { Fragment } from "react";
+import AboutSection from "@/components/sections/about-section";
+import ProjectsSection from "@/components/sections/projects-section";
+
 type HomeProps = {
   params: Promise<{ locale: Locale }>;
 };
@@ -22,8 +27,10 @@ export default async function Home({ params }: HomeProps) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  // Once the request locale is set, we can call hooks
-  const t = await getTranslations({ locale, namespace: "Home" });
-
-  return <p>{t("paragraph")}</p>;
+  return (
+    <Fragment>
+      <AboutSection />
+      <ProjectsSection />
+    </Fragment>
+  );
 }
