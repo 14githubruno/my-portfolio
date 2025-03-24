@@ -31,7 +31,7 @@ function Switchers() {
   return (
     <div
       className={clsx(
-        "absolute top-16 flex flex-col items-end gap-2 self-center justify-self-end",
+        "absolute top-16 flex flex-col items-end gap-4 self-center justify-self-end",
         "lg:gap-8 lg:pr-4"
       )}
     >
