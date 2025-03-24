@@ -50,12 +50,7 @@ export default function Header() {
         "lg:h-[calc(100vh-(90rem/8))] lg:grid-cols-3"
       )}
     >
-      <div
-        className={clsx(
-          "relative border-r border-dashed border-pink-500 dark:border-zinc-700",
-          "lg:pl-4"
-        )}
-      >
+      <div className="relative border-r border-dashed border-pink-500 px-4 dark:border-zinc-700">
         <Logo href="footer" />
         <Headings />
       </div>
