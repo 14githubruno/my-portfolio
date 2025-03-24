@@ -40,9 +40,9 @@ function Contacts() {
   return (
     <ul
       className={clsx(
-        "mb-16 flex flex-col gap-2 self-end text-right text-sm",
+        "mb-16 flex flex-col gap-4 self-end text-right text-sm",
         "md:text-base",
-        "lg:flex lg:flex-col lg:gap-8"
+        "lg:gap-8"
       )}
     >
       {contacts.map((contact: ExternalLinkProps) => {
