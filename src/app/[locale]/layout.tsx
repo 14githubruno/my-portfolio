@@ -22,6 +22,9 @@ export function generateStaticParams() {
 
 export const metadata: Metadata = {
   metadataBase: new URL(getBaseUrl()),
+  other: {
+    google: "notranslate",
+  },
 };
 
 export default async function LocaleLayout({ children, params }: LayoutProps) {
