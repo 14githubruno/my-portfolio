@@ -2,6 +2,7 @@
 
 import { useLocale } from "next-intl";
 import { usePathname as useNextIntlPathname } from "@/i18n/navigation";
+import NativeLink from "./native-link";
 
 export default function LocaleSwitcher() {
   const locale = useLocale();
@@ -9,11 +10,10 @@ export default function LocaleSwitcher() {
   const pathname = useNextIntlPathname();
 
   return (
-    <a
+    <NativeLink
       href={`${pathname}${otherLocale}`}
-      className="w-fit text-sm underline md:text-base"
-    >
-      {otherLocale}
-    </a>
+      target="_self"
+      text={otherLocale}
+    />
   );
 }
