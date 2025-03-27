@@ -1,9 +1,9 @@
 import clsx from "clsx";
 
 import Logo from "./logo";
-import ExternalLink from "./external-link";
+import NativeLink from "./native-link";
 
-import { type ExternalLinkProps } from "./external-link";
+import { type NativeLinkProps } from "./native-link";
 
 import { useTranslations, useMessages } from "next-intl";
 
@@ -15,9 +15,9 @@ function FooterParagraphs() {
       <p className={clsx("pr-2 text-sm", "lg:text-base")}>
         {t.rich("stackDesc", {
           repo: (chunks) => (
-            <ExternalLink href="https://github.com/14githubruno/my-portfolio">
+            <NativeLink href="https://github.com/14githubruno/my-portfolio">
               {chunks}
-            </ExternalLink>
+            </NativeLink>
           ),
         })}
       </p>
@@ -45,10 +45,10 @@ function Contacts() {
         "lg:gap-8"
       )}
     >
-      {contacts.map((contact: ExternalLinkProps) => {
+      {contacts.map((contact: NativeLinkProps) => {
         return (
           <li key={contact.text}>
-            <ExternalLink {...contact} />
+            <NativeLink {...contact} />
           </li>
         );
       })}

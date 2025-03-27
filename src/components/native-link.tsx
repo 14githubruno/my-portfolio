@@ -1,19 +1,22 @@
 import clsx from "clsx";
 import { ReactNode } from "react";
 
-export type ExternalLinkProps = {
+export type NativeLinkProps = {
   href: string;
   target?: "_blank" | "_self";
   text?: string;
   children?: ReactNode;
 };
 
-export default function ExternalLink({
+/**
+ * @note This component will be used when Next.js <Link> component is not needed
+ */
+export default function NativeLink({
   href,
   target = "_blank",
   text,
   children,
-}: ExternalLinkProps) {
+}: NativeLinkProps) {
   if (!text && !children) return null;
   return (
     <a
