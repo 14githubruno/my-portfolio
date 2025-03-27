@@ -1,9 +1,9 @@
 import clsx from "clsx";
 import { useMessages } from "next-intl";
-import ExternalLink from "../external-link";
-import { type ExternalLinkProps } from "../external-link";
+import NativeLink from "../native-link";
+import { type NativeLinkProps } from "../native-link";
 
-type SingleProjectLinks = ExternalLinkProps[];
+type SingleProjectLinks = NativeLinkProps[];
 
 type SingleProjectProps = {
   title: string;
@@ -83,7 +83,7 @@ function SingleProject({ title, desc, stack, links }: SingleProjectProps) {
                   {link.text}
                 </span>
               ) : (
-                <ExternalLink {...link} />
+                <NativeLink {...link} />
               )}
             </li>
           );
