@@ -110,7 +110,10 @@ export default function ProjectsSection() {
         {title}
       </h3>
       <div
-        className={clsx("flex flex-col gap-4 px-2 pb-16", "lg:pb-12 lg:pl-4")}
+        className={clsx(
+          "flex flex-col gap-4 px-2 pb-16",
+          "lg:w-3/4 lg:pb-12 lg:pl-4"
+        )}
       >
         {paragraphs.map((paragraph: string) => {
           return (
