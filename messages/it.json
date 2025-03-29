@@ -39,50 +39,69 @@
   "ProjectsSection": {
     "title": "Selezione progetti",
     "paragraphs": [
-      "Bello 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem.",
-      "Bello 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem."
+      "Qui di seguito alcuni progetti a cui ho lavorato o a cui tuttora lavoro, per necessità o per testare nuove tecnologie/librerie."
     ],
     "projectsData": [
       {
-        "title": "lorem 5",
-        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
-        "stack": ["HTML", "CSS", "JavaScript"],
+        "title": "copywriter marzia diodati",
+        "desc": "Sito web per copywriter. Design e sviluppo frontend. Collaborazione con copywriter per architettura. Creazione backend con Headless CMS per gestione contenuti.",
+        "stack": ["Next.js", "Tailwind CSS", "Strapi"],
         "links": [
           { "href": "", "text": "bitbucket" },
-          { "href": "https://google.com", "text": "visit" }
+          { "href": "https://marziadiodati.work", "text": "visita" }
         ]
       },
       {
-        "title": "lorem 4",
-        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
-        "stack": ["HTML", "CSS", "JavaScript"],
+        "title": "agriturismo cà del vento",
+        "desc": "Sito web vetrina. Sviluppo frontend da Figma design. Collaborazione con designer e copywriter per creazione componenti e UX. Aggiunta internazionalizzazione. (Questo progetto è stato realizzato con Digitalslow)",
+        "stack": ["Next.js", "SCSS", "next-intl"],
         "links": [
           { "href": "", "text": "bitbucket" },
-          { "href": "https://google.com", "text": "visit" }
+          { "href": "https://cadelvento.org", "text": "visita" }
         ]
       },
       {
-        "title": "lorem 3",
-        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
-        "stack": ["HTML", "CSS", "JavaScript"],
+        "title": "reakt.app",
+        "desc": "Web app a tema k-drama. Design e sviluppo con MERN stack. Dashboard privata. Operazioni CRUD su utente e serie TV. Verifica email e password reset.",
+        "stack": [
+          "React",
+          "Redux Toolkit",
+          "SCSS",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ],
         "links": [
-          { "href": "https://google.com", "text": "github" },
-          { "href": "https://google.com", "text": "visit" }
+          {
+            "href": "https://github.com/14githubruno/mern-app",
+            "text": "github"
+          }
         ]
       },
       {
-        "title": "lorem 2",
-        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
-        "stack": ["HTML", "CSS", "JavaScript"],
-        "links": [{ "href": "https://google.com", "text": "github" }]
+        "title": "express-handlebars-starter",
+        "desc": "SSR boilerplate.",
+        "stack": ["Express", "Handlebars", "SCSS", "JavaScript", "Webpack"],
+        "links": [
+          {
+            "href": "https://github.com/14githubruno/webpack-express-handlebars",
+            "text": "github"
+          }
+        ]
       },
       {
-        "title": "lorem 1",
-        "desc": "Bello Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque culpa dolorem fugiat adipisci.",
+        "title": "playful translator",
+        "desc": "Sito statico. 5 traduttori per 5 lingue ludiche. Nessuna libreria, nessun framework. (Questo è il primo progetto che ho realizzato)",
         "stack": ["HTML", "CSS", "JavaScript"],
         "links": [
-          { "href": "https://google.com", "text": "github" },
-          { "href": "https://google.com", "text": "visit" }
+          {
+            "href": "https://github.com/14githubruno/playful-translator",
+            "text": "github"
+          },
+          {
+            "href": "https://14githubruno.github.io/playful-translator/",
+            "text": "visita"
+          }
         ]
       }
     ]
