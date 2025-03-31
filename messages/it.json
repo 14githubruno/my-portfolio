@@ -98,7 +98,7 @@
       },
       {
         "title": "playful translator",
-        "desc": "Sito statico. Design e sviluppo. 5 traduttori per 5 lingue ludiche. Nessuna libreria, nessun framework. (Questo è il primo progetto che ho realizzato)",
+        "desc": "Sito statico. Design e sviluppo. 5 traduttori per 5 lingue ludiche. Niente librerie o framework.",
         "stack": ["HTML", "CSS", "JavaScript"],
         "links": [
           {

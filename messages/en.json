@@ -98,7 +98,7 @@
       },
       {
         "title": "playful translator",
-        "desc": "Static site. Design and development. 5 translators for 5 playful languages. No library, no framework. (This is the first project I worked on)",
+        "desc": "Static site. Design and development. 5 translators for 5 playful languages. No library or frameworks.",
         "stack": ["HTML", "CSS", "JavaScript"],
         "links": [
           {
