@@ -2,10 +2,13 @@
 
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
+import { useTranslations } from "next-intl";
 
 export default function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
   const { setTheme, resolvedTheme } = useTheme();
+  const t = useTranslations("Global.Header.ThemeSwitcher");
+
   const baseSwitcherClasses =
     "cursor-pointer text-sm md:text-base underline w-fit inline-flex";
 
@@ -22,7 +25,7 @@ export default function ThemeSwitcher() {
         className={baseSwitcherClasses}
         onClick={() => setTheme("light")}
       >
-        light
+        {t("light")}
       </button>
     );
   }
@@ -34,7 +37,7 @@ export default function ThemeSwitcher() {
         className={baseSwitcherClasses}
         onClick={() => setTheme("dark")}
       >
-        dark
+        {t("dark")}
       </button>
     );
   }

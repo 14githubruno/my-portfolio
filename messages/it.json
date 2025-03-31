@@ -4,6 +4,10 @@
       "Headings": {
         "headingOne": "bruno lusardi",
         "headingTwo": "sviluppatore web"
+      },
+      "ThemeSwitcher": {
+        "dark": "scuro",
+        "light": "chiaro"
       }
     },
     "Footer": {
