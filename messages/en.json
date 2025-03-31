@@ -38,12 +38,12 @@
   "ProjectsSection": {
     "title": "Selected projects",
     "paragraphs": [
-      "Here are some projects I have worked on, or I am still working on either out of necessity or to test new technologies/libraries."
+      "Here are some projects I have worked on, or I am still working on either out of maintenance or to test new technologies/libraries."
     ],
     "projectsData": [
       {
         "title": "copywriter marzia diodati",
-        "desc": "Website for copywriter. Frontend design and development. Collaboration with copywriter for architecture. Backend with Headless CMS for content management.",
+        "desc": "Website for copywriter. Collaboration with copywriter for architecture. Frontend design and development. Backend development with Headless CMS for content management.",
         "stack": ["Next.js", "Tailwind CSS", "Strapi"],
         "links": [
           { "href": "", "text": "bitbucket" },
@@ -90,7 +90,7 @@
       },
       {
         "title": "playful translator",
-        "desc": "Static site. 5 translators for 5 playful languages. No library, no framework. (This is the first project I worked on)",
+        "desc": "Static site. Design and development. 5 translators for 5 playful languages. No library, no framework. (This is the first project I worked on)",
         "stack": ["HTML", "CSS", "JavaScript"],
         "links": [
           {

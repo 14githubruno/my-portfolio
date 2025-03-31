@@ -38,12 +38,12 @@
   "ProjectsSection": {
     "title": "Selezione progetti",
     "paragraphs": [
-      "Qui di seguito alcuni progetti a cui ho lavorato o a cui tuttora lavoro, per necessità o per testare nuove tecnologie/librerie."
+      "Qui di seguito alcuni progetti a cui ho lavorato o a cui tuttora lavoro, per manutenzione o per testare nuove tecnologie/librerie."
     ],
     "projectsData": [
       {
         "title": "copywriter marzia diodati",
-        "desc": "Sito web per copywriter. Design e sviluppo frontend. Collaborazione con copywriter per architettura. Creazione backend con Headless CMS per gestione contenuti.",
+        "desc": "Sito web per copywriter. Collaborazione con copywriter per architettura. Design e sviluppo frontend. Creazione backend con Headless CMS per gestione contenuti.",
         "stack": ["Next.js", "Tailwind CSS", "Strapi"],
         "links": [
           { "href": "", "text": "bitbucket" },
@@ -90,7 +90,7 @@
       },
       {
         "title": "playful translator",
-        "desc": "Sito statico. 5 traduttori per 5 lingue ludiche. Nessuna libreria, nessun framework. (Questo è il primo progetto che ho realizzato)",
+        "desc": "Sito statico. Design e sviluppo. 5 traduttori per 5 lingue ludiche. Nessuna libreria, nessun framework. (Questo è il primo progetto che ho realizzato)",
         "stack": ["HTML", "CSS", "JavaScript"],
         "links": [
           {
