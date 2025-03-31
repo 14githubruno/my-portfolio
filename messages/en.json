@@ -38,9 +38,9 @@
   "AboutSection": {
     "title": "About",
     "paragraphs": [
-      "I have been programming for almost two years. In 2023 I heard about Python and, for a few days, I played around in the IDE. I was interested in the web and wanted a radical change. So I started with the basics and discovered JS.",
-      "In order to study, I took a break from work and started to develop some personal projects. In 2024, with a group of friends (engineers, designers, copywriters), I collaborated on a few products, experimenting with technologies, learning, contributing and confronting myself. Currently, I'm looking to land my first job as a web developer (at a company).",
-      "Among my other interests, there are cinema, literature and two sports: tennis and darts."
+      "I have been programming for almost two years. In 2023 I heard about Python and, for a few days, I played around in the IDE. I was interested in the web and wanted a radical change: so I started with the basics and discovered JS.",
+      "In order to study, I took a break from work and started to develop some personal projects. In 2024, with a group of friends (engineers, designers, copywriters), I collaborated on a few products, experimenting with technologies, learning, contributing and confronting myself. P.S. Currently I'm looking to land my first job as a web developer (at a company).",
+      "Among my interests, there are cinema, literature and two sports: tennis and darts."
     ]
   },
   "ProjectsSection": {
