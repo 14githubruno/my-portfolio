@@ -21,7 +21,11 @@
           "text": "email",
           "target": "_self"
         },
-        { "href": "https://github.com/14githubruno", "text": "github" }
+        { "href": "https://github.com/14githubruno", "text": "github" },
+        {
+          "href": "https://www.linkedin.com/in/bruno-lusardi-1234321-bl",
+          "text": "linkedin"
+        }
       ]
     }
   },
