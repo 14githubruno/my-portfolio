@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import { useMessages } from "next-intl";
+import BaseParagraph from "../base-paragraph";
 import NativeLink from "../native-link";
 import { type NativeLinkProps } from "../native-link";
 
@@ -25,8 +26,7 @@ function SingleProject({ title, desc, stack, links }: SingleProjectProps) {
       <div
         className={clsx(
           "flex flex-col justify-center gap-1 p-2",
-          "md:gap-4 md:p-4",
-          "lg:w-3/4"
+          "md:gap-4 md:p-4"
         )}
       >
         <h4
@@ -37,14 +37,7 @@ function SingleProject({ title, desc, stack, links }: SingleProjectProps) {
         >
           {title}
         </h4>
-        <p
-          className={clsx(
-            "py-4 text-base text-zinc-800 dark:text-amber-50",
-            "lg:text-base"
-          )}
-        >
-          {desc}
-        </p>
+        <BaseParagraph paragraph={desc} extraTWClasses="py-4" />
         <ul className={clsx("flex flex-wrap items-center gap-2")}>
           {stack.map((tech, i) => {
             return (
@@ -110,17 +103,10 @@ export default function ProjectsSection() {
         {title}
       </h3>
       <div
-        className={clsx(
-          "flex flex-col gap-4 px-2 pb-16",
-          "lg:w-3/4 lg:pb-12 lg:pl-4"
-        )}
+        className={clsx("flex flex-col gap-4 px-2 pb-16", "lg:px-4 lg:pb-12")}
       >
         {paragraphs.map((paragraph: string) => {
-          return (
-            <p className="text-zinc-800 dark:text-amber-50" key={paragraph}>
-              {paragraph}
-            </p>
-          );
+          return <BaseParagraph key={paragraph} paragraph={paragraph} />;
         })}
       </div>
       <div>

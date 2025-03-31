@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import { useMessages } from "next-intl";
+import BaseParagraph from "../base-paragraph";
 
 export default function AboutSection() {
   /* This is a test,
@@ -23,13 +24,9 @@ export default function AboutSection() {
       >
         {title}
       </h3>
-      <div className={clsx("flex flex-col gap-4", "lg:w-3/4")}>
+      <div className="flex flex-col gap-4">
         {paragraphs.map((paragraph: string) => {
-          return (
-            <p className="text-zinc-800 dark:text-amber-50" key={paragraph}>
-              {paragraph}
-            </p>
-          );
+          return <BaseParagraph paragraph={paragraph} key={paragraph} />;
         })}
       </div>
     </section>
