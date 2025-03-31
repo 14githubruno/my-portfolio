@@ -16,15 +16,15 @@
         "copyright": "bruno lusardi"
       },
       "Contacts": [
-        {
-          "href": "mailto:bruno.lusardi.96@gmail.com",
-          "text": "email",
-          "target": "_self"
-        },
         { "href": "https://github.com/14githubruno", "text": "github" },
         {
           "href": "https://www.linkedin.com/in/bruno-lusardi-1234321-bl",
           "text": "linkedin"
+        },
+        {
+          "href": "mailto:bruno.lusardi.96@gmail.com",
+          "text": "email",
+          "target": "_self"
         }
       ]
     }
