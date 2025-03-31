@@ -26,7 +26,8 @@ function SingleProject({ title, desc, stack, links }: SingleProjectProps) {
       <div
         className={clsx(
           "flex flex-col justify-center gap-1 p-2",
-          "md:gap-4 md:p-4"
+          "md:gap-4 md:p-4",
+          "lg:w-3/4"
         )}
       >
         <h4
@@ -103,7 +104,10 @@ export default function ProjectsSection() {
         {title}
       </h3>
       <div
-        className={clsx("flex flex-col gap-4 px-2 pb-16", "lg:px-4 lg:pb-12")}
+        className={clsx(
+          "flex flex-col gap-4 px-2 pb-16",
+          "lg:w-3/4 lg:px-4 lg:pb-12"
+        )}
       >
         {paragraphs.map((paragraph: string) => {
           return <BaseParagraph key={paragraph} paragraph={paragraph} />;
