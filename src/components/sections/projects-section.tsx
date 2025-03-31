@@ -26,8 +26,7 @@ function SingleProject({ title, desc, stack, links }: SingleProjectProps) {
       <div
         className={clsx(
           "flex flex-col justify-center gap-1 p-2",
-          "md:gap-4 md:p-4",
-          "lg:w-3/4"
+          "md:w-3/4 md:gap-4 md:p-4"
         )}
       >
         <h4
