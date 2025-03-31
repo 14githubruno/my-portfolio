@@ -9,8 +9,8 @@ export default function Header() {
     <header
       id="header"
       className={clsx(
-        "grid h-[calc(100vh-(120rem/8))] grid-cols-2",
-        "lg:h-[calc(100vh-(90rem/8))] lg:grid-cols-3"
+        "grid h-[calc(100vh-8rem)] grid-cols-2",
+        "lg:grid-cols-3"
       )}
     >
       <div className="relative border-r border-dashed border-pink-500 px-4 dark:border-zinc-700">
