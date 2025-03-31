@@ -1,62 +1,7 @@
 import clsx from "clsx";
-
+import FooterParagraphs from "./footer-paragraphs";
 import Logo from "../logo";
-import NativeLink from "../../native-link";
-
-import { type NativeLinkProps } from "../../native-link";
-
-import { useTranslations, useMessages } from "next-intl";
-
-function FooterParagraphs() {
-  const t = useTranslations("Global.Footer.FooterParagraphs");
-
-  return (
-    <div className={clsx("flex flex-col gap-8 pl-2", "lg:pl-4")}>
-      <p className={clsx("pr-2 text-sm", "lg:text-base")}>
-        {t.rich("stackDesc", {
-          repo: (chunks) => (
-            <NativeLink href="https://github.com/14githubruno/my-portfolio">
-              {chunks}
-            </NativeLink>
-          ),
-        })}
-      </p>
-      <p
-        className={clsx(
-          "mb-16 text-sm text-zinc-500 dark:text-zinc-400",
-          "lg:text-base"
-        )}
-      >
-        &copy; {new Date().getFullYear()} {t("copyright")}
-      </p>
-    </div>
-  );
-}
-
-function Contacts() {
-  /* This is a test,
-     see also AboutSection and ProjectsSection  */
-  const messages = useMessages();
-  const contacts = messages.Global.Footer.Contacts;
-
-  return (
-    <ul
-      className={clsx(
-        "mb-16 flex flex-col gap-4 self-end text-right text-sm",
-        "md:text-base",
-        "lg:gap-8"
-      )}
-    >
-      {contacts.map((contact: NativeLinkProps) => {
-        return (
-          <li key={contact.text}>
-            <NativeLink {...contact} />
-          </li>
-        );
-      })}
-    </ul>
-  );
-}
+import Contacts from "./contacts";
 
 export default function Footer() {
   return (
