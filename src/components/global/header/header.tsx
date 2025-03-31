@@ -9,7 +9,7 @@ export default function Header() {
     <header
       id="header"
       className={clsx(
-        "grid h-[calc(100vh-8rem)] grid-cols-2",
+        "grid h-[calc(100vh-10rem)] grid-cols-2",
         "lg:grid-cols-3"
       )}
     >
