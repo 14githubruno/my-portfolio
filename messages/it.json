@@ -8,7 +8,7 @@
     },
     "Footer": {
       "FooterParagraphs": {
-        "stackDesc": "Questo sito è stato realizzato con Next.js, TypeScript e Tailwind CSS. <repo>La repo si trova qui</repo>.",
+        "stackDesc": "Questo sito è stato realizzato con Next.js, TypeScript, Tailwind CSS e next-intl. <repo>La repo si trova qui</repo>.",
         "copyright": "bruno lusardi"
       },
       "contacts": [
