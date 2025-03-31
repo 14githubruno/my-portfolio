@@ -59,7 +59,7 @@ function SingleProject({ title, desc, stack, links }: SingleProjectProps) {
       <ul
         className={clsx(
           "flex justify-between px-3 pt-16 pb-3",
-          "md:w-[calc(90rem/8)] md:items-center md:justify-between md:gap-2 lg:p-6"
+          "md:w-[12rem] md:items-center md:justify-between md:gap-2 lg:p-6"
         )}
       >
         {links.map((link, i) => {
