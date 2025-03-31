@@ -68,14 +68,14 @@ function SingleProject({ title, desc, stack, links }: SingleProjectProps) {
           return (
             <li key={i}>
               {isPrivate ? (
-                <span
+                <del
                   className={clsx(
                     "cursor-not-allowed text-sm opacity-70",
                     "lg:text-base"
                   )}
                 >
                   {link.text}
-                </span>
+                </del>
               ) : (
                 <NativeLink {...link} />
               )}
