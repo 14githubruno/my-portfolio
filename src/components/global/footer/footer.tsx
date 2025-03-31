@@ -5,7 +5,7 @@ import Contacts from "./contacts";
 
 export default function Footer() {
   return (
-    <footer id="footer" className="h-[calc(100vh-10rem)] w-full">
+    <footer id="footer" className="h-[var(--almost-h-screen)] w-full">
       <div
         className={clsx(
           "grid h-full w-full grid-cols-2 items-end justify-between",
