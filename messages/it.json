@@ -15,7 +15,7 @@
         "stackDesc": "Questo sito è stato realizzato con Next.js, TypeScript, Tailwind CSS e next-intl. <repo>La repo si trova qui</repo>.",
         "copyright": "bruno lusardi"
       },
-      "contacts": [
+      "Contacts": [
         {
           "href": "mailto:bruno.lusardi.96@gmail.com",
           "text": "email",

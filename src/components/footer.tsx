@@ -35,7 +35,7 @@ function FooterParagraphs() {
 
 function Contacts() {
   const messages = useMessages();
-  const contacts = messages.Global.Footer.contacts;
+  const contacts = messages.Global.Footer.Contacts;
 
   return (
     <ul
