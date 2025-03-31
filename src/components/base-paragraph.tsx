@@ -13,13 +13,7 @@ export default function BaseParagraph({
   extraTWClasses,
 }: BaseParagraphProps) {
   return (
-    <p
-      className={clsx(
-        "text-zinc-800 dark:text-amber-50",
-        "lg:w-3/4",
-        extraTWClasses
-      )}
-    >
+    <p className={clsx("text-zinc-800 dark:text-amber-50", extraTWClasses)}>
       {paragraph}
     </p>
   );
