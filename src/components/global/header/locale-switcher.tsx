@@ -2,7 +2,7 @@
 
 import { useLocale } from "next-intl";
 import { usePathname as useNextIntlPathname } from "@/i18n/navigation";
-import NativeLink from "./native-link";
+import NativeLink from "../../native-link";
 
 export default function LocaleSwitcher() {
   const locale = useLocale();

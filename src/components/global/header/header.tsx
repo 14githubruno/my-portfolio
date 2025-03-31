@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-import Logo from "./logo";
+import Logo from "../logo";
 import ThemeSwitcher from "./theme-switcher";
 import LocaleSwitcher from "./locale-switcher";
 

@@ -1,9 +1,9 @@
 import clsx from "clsx";
 
-import Logo from "./logo";
-import NativeLink from "./native-link";
+import Logo from "../logo";
+import NativeLink from "../../native-link";
 
-import { type NativeLinkProps } from "./native-link";
+import { type NativeLinkProps } from "../../native-link";
 
 import { useTranslations, useMessages } from "next-intl";
 

@@ -9,7 +9,7 @@ import { Locale, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 
-import BaseLayout from "@/components/base-layout";
+import BaseLayout from "@/components/global/base-layout";
 
 type LayoutProps = {
   children: ReactNode;
