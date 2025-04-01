@@ -14,4 +14,5 @@
 
 :root {
   --almost-h-screen: calc(100vh - 8rem);
+  --max-viewport-width: 90rem;
 }

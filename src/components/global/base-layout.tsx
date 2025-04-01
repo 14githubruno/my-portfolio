@@ -8,6 +8,7 @@ import { Raleway, Playfair_Display } from "next/font/google";
 
 import ThemeContextProvider from "@/context/theme-provider";
 import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
 
 import WebsiteWrapper from "./website-wrapper";
 import PageWrapper from "./page-wrapper";
@@ -37,6 +38,8 @@ type Props = {
  * - `src/app/not-found.tsx` (to wrap the not-found page)
  */
 export default async function BaseLayout({ children, locale }: Props) {
+  const messages = await getMessages();
+
   return (
     <html className="scroll-smooth" lang={locale} suppressHydrationWarning>
       <body
@@ -48,7 +51,7 @@ export default async function BaseLayout({ children, locale }: Props) {
         )}
       >
         <ThemeContextProvider>
-          <NextIntlClientProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
             <WebsiteWrapper>
               <Header />
               <PageWrapper>{children}</PageWrapper>

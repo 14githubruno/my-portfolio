@@ -6,7 +6,7 @@ export default function FooterParagraphs() {
   const t = useTranslations("Global.Footer.FooterParagraphs");
 
   return (
-    <div className={clsx("flex flex-col gap-8 pl-2", "lg:pl-4")}>
+    <div className={clsx("flex flex-col gap-8 pr-2", "lg:pr-4")}>
       <p className={clsx("pr-2 text-sm", "lg:text-base")}>
         {t.rich("stackDesc", {
           repo: (chunks) => (

@@ -11,7 +11,7 @@ export default function LocaleSwitcher() {
 
   return (
     <NativeLink
-      href={`${pathname}${otherLocale}`}
+      href={`${pathname === "/" ? `${pathname}${otherLocale}` : `/${otherLocale}`}`}
       target="_self"
       text={otherLocale}
     />

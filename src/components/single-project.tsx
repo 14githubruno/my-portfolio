@@ -23,7 +23,7 @@ export default function SingleProject({
       className={clsx(
         "flex w-full flex-col gap-4 border-t border-b border-dashed border-pink-500 not-first-of-type:border-t-0 dark:border-zinc-700",
         "md:flex-row md:justify-between",
-        "lg:min-h-[calc((90rem/8)*1.5)] lg:gap-0 lg:border-r-0 lg:border-l-0"
+        "lg:min-h-[18rem] lg:gap-0 lg:border-r-0 lg:border-l-0"
       )}
     >
       {/* title, desc, stack */}
@@ -42,7 +42,7 @@ export default function SingleProject({
           {title}
         </h4>
         <BaseParagraph paragraph={desc} extraTWClasses="py-4" />
-        <ul className={clsx("flex flex-wrap items-center gap-2")}>
+        <ul className="flex flex-wrap items-center gap-2">
           {stack.map((tech, i) => {
             return (
               <li
