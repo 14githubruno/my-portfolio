@@ -4,84 +4,111 @@
       "Headings": {
         "headingOne": "bruno lusardi",
         "headingTwo": "web developer"
+      },
+      "ThemeSwitcher": {
+        "dark": "dark",
+        "light": "light"
       }
     },
     "Footer": {
       "FooterParagraphs": {
-        "stackDesc": "This website has been made with Next.js, TypeScript and Tailwind CSS. <repo>The repo can be found here</repo>.",
+        "stackDesc": "This website has been made with Next.js, TypeScript, Tailwind CSS and next-intl. <repo>The repo can be found here</repo>.",
         "copyright": "bruno lusardi"
       },
-      "contacts": [
+      "Contacts": [
+        { "href": "https://github.com/14githubruno", "text": "github" },
+        {
+          "href": "https://www.linkedin.com/in/bruno-lusardi-1234321-bl",
+          "text": "linkedin"
+        },
         {
           "href": "mailto:bruno.lusardi.96@gmail.com",
           "text": "email",
           "target": "_self"
-        },
-        { "href": "https://github.com/14githubruno", "text": "github" }
+        }
       ]
     }
   },
   "Home": {
     "meta": {
-      "title": "Some title",
-      "description": "Some description"
-    },
-    "paragraph": "Testing"
+      "title": "Bruno Lusardi | Web Developer Portfolio",
+      "description": "I've been programming for about two years, mainly frontend. This is my personal portfolio, where you can find a few projects I worked on."
+    }
   },
   "AboutSection": {
     "title": "About",
     "paragraphs": [
-      "Beautiful 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem.",
-      "Beautiful 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem."
+      "I have been programming for almost two years. In 2023 I heard about Python and, for a few days, I played around in the IDE. I was interested in the web and wanted a radical change: so I started with the basics and discovered JS.",
+      "In order to study, I took a break from work and started to develop some personal projects. In 2024, with a group of friends (engineers, designers, copywriters), I collaborated on a few products, experimenting with technologies, learning, contributing and confronting myself. P.S. Currently I'm looking to land my first job as a web developer (at a company).",
+      "Among my interests, there are cinema, literature and two sports: tennis and darts."
     ]
   },
   "ProjectsSection": {
-    "title": "Projects",
+    "title": "Selected projects",
     "paragraphs": [
-      "Beautiful 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem.",
-      "Beautiful 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad impedit nostrum odit. Odio tempore unde assumenda modi cumque fugit. At illo id consequuntur veniam quo ratione? Fuga nobis nam rem."
+      "Here are some projects I have worked on, or I am still working on either out of maintenance or to test new technologies/libraries."
     ],
     "projectsData": [
       {
-        "title": "lorem 5",
-        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
-        "stack": ["HTML", "CSS", "JavaScript"],
+        "title": "copywriter marzia diodati",
+        "desc": "Website for copywriter. Collaboration with copywriter for architecture. Frontend design and development. Backend development with Headless CMS for content management.",
+        "stack": ["Next.js", "Tailwind CSS", "Strapi"],
         "links": [
           { "href": "", "text": "bitbucket" },
-          { "href": "https://google.com", "text": "visit" }
+          { "href": "https://marziadiodati.work", "text": "visit" }
         ]
       },
       {
-        "title": "lorem 4",
-        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
-        "stack": ["HTML", "CSS", "JavaScript"],
+        "title": "agritourism cà del vento",
+        "desc": "Showcase website. Frontend development from Figma design. Collaboration with designer and copywriter to create components and UX. Added i18n. (This project was realised with Digitalslow)",
+        "stack": ["Next.js", "SCSS", "next-intl"],
         "links": [
           { "href": "", "text": "bitbucket" },
-          { "href": "https://google.com", "text": "visit" }
+          { "href": "https://cadelvento.org/en", "text": "visit" }
         ]
       },
       {
-        "title": "lorem 3",
-        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
-        "stack": ["HTML", "CSS", "JavaScript"],
+        "title": "reakt.app",
+        "desc": "Web app on K-dramas. Design and development with MERN stack. Private dashboard. CRUD operations on user and TV series. Email verification and password reset.",
+        "stack": [
+          "React",
+          "Redux Toolkit",
+          "SCSS",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ],
         "links": [
-          { "href": "https://google.com", "text": "github" },
-          { "href": "https://google.com", "text": "visit" }
+          {
+            "href": "https://github.com/14githubruno/mern-app",
+            "text": "github"
+          }
         ]
       },
       {
-        "title": "lorem 2",
-        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
-        "stack": ["HTML", "CSS", "JavaScript"],
-        "links": [{ "href": "https://google.com", "text": "github" }]
+        "title": "express-handlebars-starter",
+        "desc": "SSR boilerplate.",
+        "stack": ["Express", "Handlebars", "SCSS", "JavaScript", "Webpack"],
+        "links": [
+          {
+            "href": "https://github.com/14githubruno/webpack-express-handlebars",
+            "text": "github"
+          }
+        ]
       },
       {
-        "title": "lorem 1",
-        "desc": "Beautiful Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore aspernatur quis, consequuntur perferendis officiis neque.",
+        "title": "playful translator",
+        "desc": "Static site. Design and development. 5 translators for 5 playful languages. No library or frameworks.",
         "stack": ["HTML", "CSS", "JavaScript"],
         "links": [
-          { "href": "https://google.com", "text": "github" },
-          { "href": "https://google.com", "text": "visit" }
+          {
+            "href": "https://github.com/14githubruno/playful-translator",
+            "text": "github"
+          },
+          {
+            "href": "https://14githubruno.github.io/playful-translator/",
+            "text": "visit"
+          }
         ]
       }
     ]

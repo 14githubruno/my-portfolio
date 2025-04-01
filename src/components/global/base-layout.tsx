@@ -1,4 +1,4 @@
-import "../app/globals.css";
+import "../../app/globals.css";
 
 import clsx from "clsx";
 
@@ -11,8 +11,8 @@ import { NextIntlClientProvider } from "next-intl";
 
 import WebsiteWrapper from "./website-wrapper";
 import PageWrapper from "./page-wrapper";
-import Header from "./header";
-import Footer from "./footer";
+import Header from "./header/header";
+import Footer from "./footer/footer";
 
 const raleway = Raleway({
   variable: "--font-raleway",

@@ -11,3 +11,7 @@
   --font-raleway: var(--font-raleway);
   --font-playfair-display: var(--font-playfair-display);
 }
+
+:root {
+  --almost-h-screen: calc(100vh - 8rem);
+}
