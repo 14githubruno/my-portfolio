@@ -116,8 +116,8 @@
   "NotFoundPage": {
     "paragraph": "This page does not exist."
   },
-  "ErrorPage": {
-    "title": "Error",
+  "Error": {
+    "paragraph": "Error.",
     "buttonText": "Retry"
   }
 }
