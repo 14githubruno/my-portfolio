@@ -114,10 +114,6 @@
     ]
   },
   "NotFoundPage": {
-    "meta": {
-      "title": "404",
-      "description": "Questa pagina non esiste (404)"
-    },
     "paragraph": "Questa pagina non esiste."
   },
   "ErrorPage": {
