@@ -118,7 +118,7 @@
       "title": "404",
       "description": "Questa pagina non esiste (404)"
     },
-    "paragraph": "Ops! Questa pagina non esiste"
+    "paragraph": "Questa pagina non esiste."
   },
   "ErrorPage": {
     "title": "Errore",
