@@ -42,7 +42,7 @@ export default function SingleProject({
           {title}
         </h4>
         <BaseParagraph paragraph={desc} extraTWClasses="py-4" />
-        <ul className={clsx("flex flex-wrap items-center gap-2")}>
+        <ul className="flex flex-wrap items-center gap-2">
           {stack.map((tech, i) => {
             return (
               <li
