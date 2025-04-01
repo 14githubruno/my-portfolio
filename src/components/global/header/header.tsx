@@ -9,11 +9,15 @@ export default function Header() {
     <header
       id="header"
       className={clsx(
-        "grid h-[var(--almost-h-screen)] grid-cols-2",
-        "lg:grid-cols-3"
+        "grid h-[var(--almost-h-screen)] grid-cols-2 px-2",
+        "lg:grid-cols-3 lg:px-4"
       )}
     >
-      <div className="relative border-r border-dashed border-pink-500 px-4 dark:border-zinc-700">
+      <div
+        className={clsx(
+          "relative border-r border-dashed border-pink-500 dark:border-zinc-700"
+        )}
+      >
         <Logo href="footer" />
         <Headings />
       </div>
