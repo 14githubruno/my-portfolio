@@ -46,7 +46,7 @@
   "ProjectsSection": {
     "title": "Selezione progetti",
     "paragraphs": [
-      "Qui di seguito alcuni progetti a cui ho lavorato o a cui tuttora lavoro, per manutenzione o per testare nuove tecnologie/librerie."
+      "Qui di seguito alcuni progetti a cui ho lavorato o a cui tuttora lavoro per manutenzione o per testare tecnologie/librerie."
     ],
     "projectsData": [
       {
@@ -60,16 +60,16 @@
       },
       {
         "title": "agriturismo cà del vento",
-        "desc": "Sito web vetrina. Sviluppo frontend da Figma design. Collaborazione con designer e copywriter per creazione componenti e UX. Aggiunta internazionalizzazione. (Questo progetto è stato realizzato con Digitalslow)",
-        "stack": ["Next.js", "SCSS", "next-intl"],
+        "desc": "Sito web vetrina. Sviluppo frontend da Figma design. Collaborazione con designer e copywriter per creazione componenti e UX. Aggiunta internazionalizzazione. Scritto documentazione su integrazione next-intl. (Questo progetto è stato realizzato con Digitalslow)",
+        "stack": ["Next.js", "SCSS", "next-intl", "Storybook"],
         "links": [
           { "href": "", "text": "bitbucket" },
           { "href": "https://cadelvento.org", "text": "visita" }
         ]
       },
       {
-        "title": "reakt.app",
-        "desc": "Web app a tema k-drama. Design e sviluppo con MERN stack. Dashboard privata. Operazioni CRUD su utente e serie TV. Verifica email e password reset.",
+        "title": "reakt-app",
+        "desc": "Web app a tema k-drama. Design e sviluppo con MERN stack. Dashboard privata. Operazioni CRUD su utente e serie TV. Verifica account e password reset.",
         "stack": [
           "React",
           "Redux Toolkit",
@@ -82,7 +82,8 @@
           {
             "href": "https://github.com/14githubruno/mern-app",
             "text": "github"
-          }
+          },
+          { "href": "https://reakt.app", "text": "visita" }
         ]
       },
       {
