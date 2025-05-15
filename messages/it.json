@@ -50,6 +50,24 @@
     ],
     "projectsData": [
       {
+        "title": "money-app",
+        "desc": "Web app per gestione spese.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Tremor",
+          "Prisma",
+          "Auth.js"
+        ],
+        "links": [
+          {
+            "href": "https://github.com/14githubruno/next-money-app",
+            "text": "github"
+          }
+        ]
+      },
+      {
         "title": "copywriter marzia diodati",
         "desc": "Sito web per copywriter. Collaborazione con copywriter per architettura. Design e sviluppo frontend. Creazione backend con Headless CMS per gestione contenuti.",
         "stack": ["Next.js", "Tailwind CSS", "Strapi"],
