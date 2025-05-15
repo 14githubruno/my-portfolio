@@ -38,17 +38,35 @@
   "AboutSection": {
     "title": "About",
     "paragraphs": [
-      "I have been programming for almost two years. In 2023 I heard about Python and, for a few days, I played around in the IDE. I was interested in the web and wanted a radical change: so I started with the basics and discovered JS.",
-      "In order to study, I took a break from work and started to develop some personal projects. In 2024, with a group of friends (engineers, designers, copywriters), I collaborated on a few products, experimenting with technologies, learning, contributing and confronting myself. P.S. Currently I'm looking to land my first job as a web developer (at a company).",
-      "Among my interests, there are cinema, literature and two sports: tennis and darts."
+      "I have been programming for almost two years. In 2023 I heard about Python and, for a few days, I played around in the IDE. I was interested in the web, so I started with the basics and discovered JS.",
+      "In order to study, I took a break from work and started to develop some personal projects. In 2024, I also collaborated with a group of friends (engineers, designers, copywriters), experimenting with technologies, learning, contributing and confronting myself. Currently I'm looking to land my first job as a web dev at a company.",
+      "Among my other interests, cinema, literature and two sports: tennis and darts."
     ]
   },
   "ProjectsSection": {
     "title": "Selected projects",
     "paragraphs": [
-      "Here are some projects I have worked on or I am still working on either out of maintenance or to test technologies/libraries."
+      "Here are some projects, for clients or to test technologies."
     ],
     "projectsData": [
+      {
+        "title": "money-app",
+        "desc": "Web app to track expenses.",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Tremor",
+          "Prisma",
+          "Auth.js"
+        ],
+        "links": [
+          {
+            "href": "https://github.com/14githubruno/next-money-app",
+            "text": "github"
+          }
+        ]
+      },
       {
         "title": "copywriter marzia diodati",
         "desc": "Website for copywriter. Collaboration with copywriter for architecture. Frontend design and development. Backend development with Headless CMS for content management.",
